@@ -1,0 +1,10 @@
+strict digraph "" {
+	graph [epsilon=0.01];
+	"node" -> node1;
+	node1 -> node10;
+	node10 -> node101;
+	node101 -> node1010;
+	node1010 -> node10101;
+	node10101 -> node101010;
+	node10101 -> node101011;
+}
